@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Conversor de medidas</title>
+</head>
+
+<body>
+  <h1>Conversor de medidas</h1>
+  <div class="container">
+    <div class="measures">
+      <button class="btn_select_option">Temperatura</button>
+      <ul class="list">
+        <li>Temperatura</li>
+        <li>Massa</li>
+        <li>Comprimento</li>
+      </ul>
+    </div>
+
+    <input id="input_user" type="number" placeholder="Digite o valor">
+
+    <div class="container_compare">
+      <div class="container_unit">
+        <button id="btn_select_1">Celsius</button>
+        <ul id="list_unit">
+          <li>Kelvim</li>
+          <li>Fahrenheit</li>
+          <li>Celsius</li>
+        </ul>
+      </div>
+      <p>x</p>
+      <div class="container_unit">
+        <button id="btn_select_2">Fahrenheit</button>
+        <ul id="list_unit_2">
+          <li>Kelvim</li>
+          <li>Fahrenheit</li>
+          <li>Celsius</li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="btn_change">Trocar unidades</button>
+
+    <div class="result">
+      Por favor, digite um valor
+    </div>  
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
